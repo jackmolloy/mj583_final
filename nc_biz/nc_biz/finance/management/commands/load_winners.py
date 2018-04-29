@@ -61,6 +61,12 @@ class Command(BaseCommand):
             forwardDividend = row['Forward Dividend & Yield']
             yrEst = row['1y Target Est']
             url = row['url']
+            name = row['name']
+            hq = row['hq']
+            logo = row['logo']
+            latLng = row['lat-lng']
+            site = row['site']
+            cat = row['cat']
 
 
 
@@ -101,6 +107,12 @@ class Command(BaseCommand):
                 forwardDividend = row['Forward Dividend & Yield'],
                 yrEst = row['1y Target Est'],
                 url = row['url'],
+                name = row['name'],
+                hq = row['hq'],
+                logo = row['logo'],
+                latLng = row['lat-lng'],
+                site = row['site'],
+                cat = row['cat'],
             )
             # category, _ = Category.objects.get_or_create(name=category_name)
             # person, _ = Person.objects.get_or_create(

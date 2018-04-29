@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block content %}
+<h2>Course: {{ company.name }}</h2>
+<p>Details</p>
+<ul>
+    <li>{{ company.tick }}</li>
+    <li>{{ company.opening }}</li>
+    <li>{{ company.close }}</li>
+    <li>{{ company.dayRng }}</li>
+    <li>{{ company.yrRng }}</li>
+    <li>{{ company.volume }}</li>
+    <li>{{ company.cap }}</li>
+
+
+</ul>
+{% endblock %}

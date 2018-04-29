@@ -20,7 +20,12 @@ class Company(models.Model):
     peRatio = models.DecimalField(max_digits=19, decimal_places=2, default=Decimal(0.0000), blank=True, null=True)
     forwardDividend = models.CharField(max_length=100)
     beta = models.DecimalField(max_digits=19, decimal_places=2, default=Decimal(0.0000), blank=True, null=True)
-
+    name = models.CharField(max_length=100)
+    hq = models.CharField(max_length=100)
+    logo = models.CharField(max_length=100)
+    latLng = models.CharField(max_length=100)
+    site = models.CharField(max_length=100)
+    cat = models.CharField(max_length=100)
 
     # class Meta:
     #     ordering = ('name',)

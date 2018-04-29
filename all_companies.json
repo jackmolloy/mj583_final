@@ -1,25 +1,5 @@
 [
     {
-        "Previous Close": "173.2500",
-        "Open": "172.2300",
-        "Bid": "172.6300 x 900",
-        "Ask": "172.6500 x 100",
-        "Day's Range": "171.7000 - 173.2460",
-        "52 Week Range": "140.4500 - 183.5000",
-        "Volume": "8,488,607",
-        "Avg. Volume": "38,620,596",
-        "Market Cap": "876.594B",
-        "Beta": "1.10",
-        "PE Ratio (TTM)": "17.81",
-        "EPS (TTM)": 9.7,
-        "Earnings Date": "2018-05-01",
-        "Forward Dividend & Yield": "2.52 (1.46%)",
-        "Ex-Dividend Date": "0.00",
-        "1y Target Est": 191.85,
-        "ticker": "aapl",
-        "url": "http://finance.yahoo.com/quote/aapl?p=aapl"
-    },
-    {
         "Previous Close": "5.16",
         "Open": "5.12",
         "Bid": "5.02 x 300",
@@ -37,7 +17,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.17,
         "ticker": "AKTS",
-        "url": "http://finance.yahoo.com/quote/AKTS?p=AKTS"
+        "url": "http://finance.yahoo.com/quote/AKTS?p=AKTS",
+        "name": "Akoustis Technologies, Inc.",
+        "logo": "https://sylvacap.com/wp-content/uploads/2018/02/akoustis-logo.jpg",
+        "hq": "Huntersville, NC",
+        "lat-lng": "42.923679, -77.312239",
+        "site": "https://akoustis.com/",
+        "cat": "Manufacturing"
     },
     {
         "Previous Close": "1.34",
@@ -57,7 +43,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 4.33,
         "ticker": "ARLZ",
-        "url": "http://finance.yahoo.com/quote/ARLZ?p=ARLZ"
+        "url": "http://finance.yahoo.com/quote/ARLZ?p=ARLZ",
+        "name": "Aralez Pharmaceuticals Inc. | Pozen Inc.",
+        "logo": "https://mms.businesswire.com/media/20150608006020/en/290059/5/POZEN__Logo_%282%29_%282%29.jpg",
+        "hq": "Chapel Hill, NC",
+        "lat-lng": "35.904214, -79.016131",
+        "site": "https://aralez.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "30.48",
@@ -77,7 +69,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 34.75,
         "ticker": "BAC",
-        "url": "http://finance.yahoo.com/quote/BAC?p=BAC"
+        "url": "http://finance.yahoo.com/quote/BAC?p=BAC",
+        "name": "Bank of America",
+        "logo": "https://www.workingmother.com/sites/workingmother.com/files/styles/opengraph_1_91x1/public/bank-of-america-canvassed.jpg?itok=uy8MJG_q",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.227342, -80.841917)",
+        "site": "https://www.bankofamerica.com/",
+        "cat": "Banking"
     },
     {
         "Previous Close": "32.43",
@@ -97,7 +95,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 32.5,
         "ticker": "BAND",
-        "url": "http://finance.yahoo.com/quote/BAND?p=BAND"
+        "url": "http://finance.yahoo.com/quote/BAND?p=BAND",
+        "name": "Bandwidth",
+        "logo": "https://www.bandwidth.com/wp-content/themes/bandwidth/assets/media/bandwidth-logo-footer.png",
+        "hq": "Cary, NC",
+        "lat-lng": "(35.773366, -78.677609)",
+        "site": "https://www.bandwidth.com/",
+        "cat": "Communications"
     },
     {
         "Previous Close": "52.57",
@@ -117,7 +121,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 57.67,
         "ticker": "BBT",
-        "url": "http://finance.yahoo.com/quote/BBT?p=BBT"
+        "url": "http://finance.yahoo.com/quote/BBT?p=BBT",
+        "name": "BB&T Bank",
+        "logo": "https://i.forbesimg.com/media/lists/companies/bbt_416x416.jpg",
+        "hq": "Winston-Salem, NC",
+        "lat-lng": "(36.095677, -80.245157)",
+        "site": "https://www.bbt.com/",
+        "cat": "Banking"
     },
     {
         "Previous Close": "2.100",
@@ -137,27 +147,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 4.58,
         "ticker": "BDSI",
-        "url": "http://finance.yahoo.com/quote/BDSI?p=BDSI"
-    },
-    {
-        "Previous Close": "19.70",
-        "Open": "19.55",
-        "Bid": "19.40 x 300",
-        "Ask": "19.45 x 1300",
-        "Day's Range": "19.35 - 19.70",
-        "52 Week Range": "18.20 - 25.70",
-        "Volume": "47,139",
-        "Avg. Volume": "533,952",
-        "Market Cap": "1.3B",
-        "Beta": "0.86",
-        "PE Ratio (TTM)": "22.76",
-        "EPS (TTM)": 0.85,
-        "Earnings Date": "2018-05-07 to 2018-05-11",
-        "Forward Dividend & Yield": "0.00 (0.00)",
-        "Ex-Dividend Date": "0.00",
-        "1y Target Est": 23.38,
-        "ticker": "BMCH",
-        "url": "http://finance.yahoo.com/quote/BMCH?p=BMCH"
+        "url": "http://finance.yahoo.com/quote/BDSI?p=BDSI",
+        "name": "BioDelivery Sciences International, Inc.",
+        "logo": "https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_5gy0gdcr/def_height/2700/def_width/2700/version/100012/type/1",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.834444, -78.689644)",
+        "site": "https://www.bdsi.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "14.100",
@@ -177,7 +173,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.5,
         "ticker": "BOJA",
-        "url": "http://finance.yahoo.com/quote/BOJA?p=BOJA"
+        "url": "http://finance.yahoo.com/quote/BOJA?p=BOJA",
+        "name": "Bojangles",
+        "logo": "https://www.bojangles.com/wp-content/uploads/2016/07/Boj_Logo_2A.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.134240, -80.915157)",
+        "site": "https://www.bojangles.com/",
+        "cat": "Food/Beverage"
     },
     {
         "Previous Close": "3.20",
@@ -197,7 +199,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 4.0,
         "ticker": "BURG",
-        "url": "http://finance.yahoo.com/quote/BURG?p=BURG"
+        "url": "http://finance.yahoo.com/quote/BURG?p=BURG",
+        "name": "Chanticleer Holdings",
+        "logo": "http://www.chanticleerholdings.com/wp-content/uploads/2016/08/chanticleer-logo-color-1.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.089042, -80.847207)",
+        "site": "www.chanticleerholdings.com/",
+        "cat": "Food/Beverage"
     },
     {
         "Previous Close": "3.76",
@@ -217,27 +225,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 3.5,
         "ticker": "BW",
-        "url": "http://finance.yahoo.com/quote/BW?p=BW"
-    },
-    {
-        "Previous Close": "65.34",
-        "Open": "65.10",
-        "Bid": "66.05 x 300",
-        "Ask": "66.10 x 300",
-        "Day's Range": "65.03 - 66.09",
-        "52 Week Range": "45.79 - 67.69",
-        "Volume": "209,874",
-        "Avg. Volume": "538,560",
-        "Market Cap": "6.58B",
-        "Beta": "0.47",
-        "PE Ratio (TTM)": "44.93",
-        "EPS (TTM)": 1.47,
-        "Earnings Date": "2018-04-30 to 2018-05-04",
-        "Forward Dividend & Yield": "0.64 (0.98%)",
-        "Ex-Dividend Date": "0.00",
-        "1y Target Est": 70.5,
-        "ticker": "BWXT",
-        "url": "http://finance.yahoo.com/quote/BWXT?p=BWXT"
+        "url": "http://finance.yahoo.com/quote/BW?p=BW",
+        "name": "Babcock & Wilcox",
+        "logo": "https://www.nyse.com/publicdocs/nyse/events/images/BW-logo%20w-Arc%20only%20-%20gradient_300dpi.jpg",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.055965, -80.842882)",
+        "site": "www.babcock.com/",
+        "cat": "Energy"
     },
     {
         "Previous Close": "16.50",
@@ -257,7 +251,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 15.0,
         "ticker": "CATO",
-        "url": "http://finance.yahoo.com/quote/CATO?p=CATO"
+        "url": "http://finance.yahoo.com/quote/CATO?p=CATO",
+        "name": "The Cato Corporation",
+        "logo": "https://www.catofashions.com/images/Cato-Logo.jpg",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.127344, -80.880559)",
+        "site": "https://www.catofashions.com/",
+        "cat": "Retail"
     },
     {
         "Previous Close": "5.10",
@@ -277,7 +277,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 6.75,
         "ticker": "CMRX",
-        "url": "http://finance.yahoo.com/quote/CMRX?p=CMRX"
+        "url": "http://finance.yahoo.com/quote/CMRX?p=CMRX",
+        "name": "Chimerix, Inc.",
+        "logo": "https://www.marketbeat.com/logos/chimerix-inc-logo.JPG",
+        "hq": "Durham, NC",
+        "lat-lng": "(35.910220, -78.894583)",
+        "site": "www.chimerix.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "174.75",
@@ -297,7 +303,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 144.0,
         "ticker": "COKE",
-        "url": "http://finance.yahoo.com/quote/COKE?p=COKE"
+        "url": "http://finance.yahoo.com/quote/COKE?p=COKE",
+        "name": "Coca-Cola Bottling Co. Consolidated",
+        "logo": "http://www.cokeconsolidated.com/assets/images/coca_cola_logo.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.282704, -80.880733)",
+        "site": "www.cokeconsolidated.com/",
+        "cat": "Bottling"
     },
     {
         "Previous Close": "39.37",
@@ -317,7 +329,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 42.5,
         "ticker": "COMM",
-        "url": "http://finance.yahoo.com/quote/COMM?p=COMM"
+        "url": "http://finance.yahoo.com/quote/COMM?p=COMM",
+        "name": "CommScope Holding Co.",
+        "logo": "https://www.bhgrp.com/app/asset/uploads/2017/12/COMM.jpg",
+        "hq": "Hickory, NC",
+        "lat-lng": "(35.715184, -81.317506)",
+        "site": "https://www.commscope.com/",
+        "cat": "Technology"
     },
     {
         "Previous Close": "42.36",
@@ -337,7 +355,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 36.22,
         "ticker": "CREE",
-        "url": "http://finance.yahoo.com/quote/CREE?p=CREE"
+        "url": "http://finance.yahoo.com/quote/CREE?p=CREE",
+        "name": "Cree, Inc.",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cree_Inc._logo.svg/2000px-Cree_Inc._logo.svg.png",
+        "hq": "Durham, NC",
+        "lat-lng": "(35.899478, -78.842384)",
+        "site": "www.cree.com",
+        "cat": "Manufacturing"
     },
     {
         "Previous Close": "98.39",
@@ -357,7 +381,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 126.0,
         "ticker": "CSL",
-        "url": "http://finance.yahoo.com/quote/CSL?p=CSL"
+        "url": "http://finance.yahoo.com/quote/CSL?p=CSL",
+        "name": "Carlisle Companies",
+        "logo": "https://mms.businesswire.com/media/20161013005788/en/549608/5/CSL_Masterbrand.jpg",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.059272, -80.839249)",
+        "site": "carlisle.com/",
+        "cat": "Manufacturing"
     },
     {
         "Previous Close": "1.36",
@@ -377,7 +407,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 2.5,
         "ticker": "CTHR",
-        "url": "http://finance.yahoo.com/quote/CTHR?p=CTHR"
+        "url": "http://finance.yahoo.com/quote/CTHR?p=CTHR",
+        "name": "Charles & Colvard",
+        "logo": "https://riversagency.com/wp-content/themes/rivers-v4/images/work/charles_colvard/cnc_logo.svg",
+        "hq": "Morrisville, NC",
+        "lat-lng": "(35.835569, -78.808781)",
+        "site": "https://www.charlesandcolvard.com/",
+        "cat": "Retail"
     },
     {
         "Previous Close": "31.05",
@@ -397,7 +433,13 @@
         "Ex-Dividend Date": "2018-03-29",
         "1y Target Est": 35.0,
         "ticker": "CULP",
-        "url": "http://finance.yahoo.com/quote/CULP?p=CULP"
+        "url": "http://finance.yahoo.com/quote/CULP?p=CULP",
+        "name": "Culp, Inc.",
+        "logo": "http://d1ty0e8cxefhfl.cloudfront.net/contributor/oliver-mani/user_content/ckimages/orig_1a51efa1-5a0c-4911-b449-0554c84226ef.gif",
+        "hq": "High Point, NC",
+        "lat-lng": "(36.007651, -79.988809)",
+        "site": "www.culpinc.com/",
+        "cat": "Home Fashion"
     },
     {
         "Previous Close": "28.79",
@@ -417,7 +459,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 36.0,
         "ticker": "DOVA",
-        "url": "http://finance.yahoo.com/quote/DOVA?p=DOVA"
+        "url": "http://finance.yahoo.com/quote/DOVA?p=DOVA",
+        "name": "Dova Pharmaceuticals",
+        "logo": "http://gnmq-6tkv.accessdomain.com/wp-content/uploads/2017/06/Dova-Pharmaceuticals-logo.png",
+        "hq": "Durham, NC",
+        "lat-lng": "(35.917695, -78.981225)",
+        "site": "dova.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "77.52",
@@ -437,7 +485,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 81.71,
         "ticker": "DUK",
-        "url": "http://finance.yahoo.com/quote/DUK?p=DUK"
+        "url": "http://finance.yahoo.com/quote/DUK?p=DUK",
+        "name": "Duke Energy",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Duke_Energy_logo.svg/1200px-Duke_Energy_logo.svg.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.224284, -80.848763)",
+        "site": "https://www.duke-energy.com/home",
+        "cat": "Energy"
     },
     {
         "Previous Close": "36.33",
@@ -457,7 +511,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 41.5,
         "ticker": "FBNC",
-        "url": "http://finance.yahoo.com/quote/FBNC?p=FBNC"
+        "url": "http://finance.yahoo.com/quote/FBNC?p=FBNC",
+        "name": "First Bancorp",
+        "logo": "https://localfirstbank.com/wp-content/uploads/2016/06/FB_GenericSocialBG.jpg",
+        "hq": "Southern Pines, NC",
+        "lat-lng": "(35.172442, -79.395168)",
+        "site": "https://localfirstbank.com/",
+        "cat": "Banking"
     },
     {
         "Previous Close": "13.62",
@@ -477,7 +537,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 22.0,
         "ticker": "FENC",
-        "url": "http://finance.yahoo.com/quote/FENC?p=FENC"
+        "url": "http://finance.yahoo.com/quote/FENC?p=FENC",
+        "name": "Fennec Pharmaceuticals",
+        "logo": "http://fennecpharma.com/wp-content/uploads/2013/10/fennec_logo-300x104.png",
+        "hq": "Durham, NC",
+        "lat-lng": "(35.913860, -78.879617)",
+        "site": "fennecpharma.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "35.83",
@@ -497,7 +563,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 43.0,
         "ticker": "GTHX",
-        "url": "http://finance.yahoo.com/quote/GTHX?p=GTHX"
+        "url": "http://finance.yahoo.com/quote/GTHX?p=GTHX",
+        "name": "G1 Therapeutics",
+        "logo": "http://www.g1therapeutics.com/assets/images/logo.png",
+        "hq": "Research Triangle Park, NC",
+        "lat-lng": "(35.907035, -78.876914)",
+        "site": "www.g1therapeutics.com/",
+        "cat": "Biotechnology"
     },
     {
         "Previous Close": "18.81",
@@ -517,7 +589,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 22.88,
         "ticker": "HBI",
-        "url": "http://finance.yahoo.com/quote/HBI?p=HBI"
+        "url": "http://finance.yahoo.com/quote/HBI?p=HBI",
+        "name": "Hanesbrands, Inc.",
+        "logo": "http://hanescareers.com/assets/build/img/iconic-brands/logo-hanes.png",
+        "hq": "Winston-Salem, NC",
+        "lat-lng": "(36.188843, -80.264103)",
+        "site": "https://www.hanes.com/corporate",
+        "cat": "Apparel"
     },
     {
         "Previous Close": "43.20",
@@ -537,7 +615,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 51.4,
         "ticker": "HIW",
-        "url": "http://finance.yahoo.com/quote/HIW?p=HIW"
+        "url": "http://finance.yahoo.com/quote/HIW?p=HIW",
+        "name": "Highwoods Properties",
+        "logo": "https://brookhavenpost.co/wp-content/uploads/2013/06/Highwoods_Properties.jpg",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.819041, -78.6068)",
+        "site": "www.highwoods.com/",
+        "cat": "Real Estate"
     },
     {
         "Previous Close": "1.29",
@@ -557,7 +641,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 26.25,
         "ticker": "HTBX",
-        "url": "http://finance.yahoo.com/quote/HTBX?p=HTBX"
+        "url": "http://finance.yahoo.com/quote/HTBX?p=HTBX",
+        "name": "Heat Biologics, Inc.",
+        "logo": "http://logosandbrands.directory/wp-content/themes/directorypress/thumbs/Heat-Biologics-Inc.-logo.jpg",
+        "hq": "Chapel Hill, NC",
+        "lat-lng": "(35.939512, -79.018578)",
+        "site": "https://heatbio.com/",
+        "cat": "Biotechnology"
     },
     {
         "Previous Close": "27.21",
@@ -577,7 +667,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 34.0,
         "ticker": "IIIN",
-        "url": "http://finance.yahoo.com/quote/IIIN?p=IIIN"
+        "url": "http://finance.yahoo.com/quote/IIIN?p=IIIN",
+        "name": "Insteel Industries, Inc.",
+        "logo": "https://www.marketbeat.com/logos/insteel-industries-inc-logo.jpg",
+        "hq": "Mount Airy, NC",
+        "lat-lng": "(36.528539, -80.63557)",
+        "site": "www.insteel.com/",
+        "cat": "Industrial Manufacturing"
     },
     {
         "Previous Close": "96.61",
@@ -597,7 +693,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 116.0,
         "ticker": "IQV",
-        "url": "http://finance.yahoo.com/quote/IQV?p=IQV"
+        "url": "http://finance.yahoo.com/quote/IQV?p=IQV",
+        "name": "IQVIA",
+        "logo": "https://com-justcapital-web-v2.s3.amazonaws.com/wp-content/themes/justcapital/assets/img/company-logos/IQV.png",
+        "hq": "Durham, NC",
+        "lat-lng": "(35.871776, -78.84934)",
+        "site": "https://www.iqvia.com/",
+        "cat": "Biotechnology"
     },
     {
         "Previous Close": "199.62",
@@ -617,7 +719,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 39.0,
         "ticker": "ITIC",
-        "url": "http://finance.yahoo.com/quote/ITIC?p=ITIC"
+        "url": "http://finance.yahoo.com/quote/ITIC?p=ITIC",
+        "name": "Investors Title Company",
+        "logo": "https://mark.trademarkia.com/logo-images/investors-title-insurance-company/logo-77319677.jpg",
+        "hq": "Chapel Hill, NC",
+        "lat-lng": "(35.913689, -79.056308)",
+        "site": "https://www.invtitle.com/",
+        "cat": "Insurance"
     },
     {
         "Previous Close": "29.52",
@@ -637,7 +745,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 37.08,
         "ticker": "JELD",
-        "url": "http://finance.yahoo.com/quote/JELD?p=JELD"
+        "url": "http://finance.yahoo.com/quote/JELD?p=JELD",
+        "name": "Jeld-Wen Holding, Inc.",
+        "logo": "https://www.nyse.com/publicdocs/nyse/events/images/JELD-logo-horizontal-pos-alpha%20web.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.225607, -80.848807)",
+        "site": "www.jeld-wen.com/",
+        "cat": "Manufacturing"
     },
     {
         "Previous Close": "165.14",
@@ -657,7 +771,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 193.5,
         "ticker": "LH",
-        "url": "http://finance.yahoo.com/quote/LH?p=LH"
+        "url": "http://finance.yahoo.com/quote/LH?p=LH",
+        "name": "LabCorp",
+        "logo": "https://i.forbesimg.com/media/lists/companies/labcorp_416x416.jpg",
+        "hq": "Burlington, NC",
+        "lat-lng": "(36.091303, -79.438083)",
+        "site": "https://www.labcorp.com/",
+        "cat": "Healthcare"
     },
     {
         "Previous Close": "28.90",
@@ -677,7 +797,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 31.5,
         "ticker": "LOB",
-        "url": "http://finance.yahoo.com/quote/LOB?p=LOB"
+        "url": "http://finance.yahoo.com/quote/LOB?p=LOB",
+        "name": "Live Oak Bank",
+        "logo": "https://www.depositaccounts.com/content/logos/live-oak-banking-company.gif",
+        "hq": "Wilmington, NC",
+        "lat-lng": "(34.201040, -77.90545)",
+        "site": "https://www.liveoakbank.com/",
+        "cat": "Banking"
     },
     {
         "Previous Close": "87.14",
@@ -697,7 +823,13 @@
         "Ex-Dividend Date": "2018-04-24",
         "1y Target Est": 106.1,
         "ticker": "LOW",
-        "url": "http://finance.yahoo.com/quote/LOW?p=LOW"
+        "url": "http://finance.yahoo.com/quote/LOW?p=LOW",
+        "name": "Lowe's",
+        "logo": "https://www.lowes.com/windowsdoors/assets/images/logo-lowes-print.png",
+        "hq": "Mooresville, NC",
+        "lat-lng": "(35.541800, -80.853851)",
+        "site": "https://www.lowes.com/",
+        "cat": "Retail"
     },
     {
         "Previous Close": "205.20",
@@ -717,7 +849,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 249.08,
         "ticker": "MLM",
-        "url": "http://finance.yahoo.com/quote/MLM?p=MLM"
+        "url": "http://finance.yahoo.com/quote/MLM?p=MLM",
+        "name": "Martin Marietta Materials",
+        "logo": "https://www.martinmarietta.com/img/l_main.svg",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.820161, -78.690129)",
+        "site": "https://www.martinmarietta.com/",
+        "cat": "Building Materials"
     },
     {
         "Previous Close": "7.15",
@@ -737,7 +875,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 15.33,
         "ticker": "MLNT",
-        "url": "http://finance.yahoo.com/quote/MLNT?p=MLNT"
+        "url": "http://finance.yahoo.com/quote/MLNT?p=MLNT",
+        "name": "Melinta Therapeutics | Cempra Pharmaceuticals",
+        "logo": "http://melinta.com/wp-content/themes/melinta/images/melinta-logo.png",
+        "hq": "Chapel Hill, NC",
+        "lat-lng": "(35.911795, -78.978185)",
+        "site": "melinta.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "3.07",
@@ -757,7 +901,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 11.5,
         "ticker": "NOVN",
-        "url": "http://finance.yahoo.com/quote/NOVN?p=NOVN"
+        "url": "http://finance.yahoo.com/quote/NOVN?p=NOVN",
+        "name": "Novan Therapeutics",
+        "logo": "https://www.marketbeat.com/logos/novan-inc-logo.jpg",
+        "hq": "Morrisville, NC",
+        "lat-lng": "(35.877488, -78.869092)",
+        "site": "www.novan.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "77.53",
@@ -777,7 +927,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 102.75,
         "ticker": "NPO",
-        "url": "http://finance.yahoo.com/quote/NPO?p=NPO"
+        "url": "http://finance.yahoo.com/quote/NPO?p=NPO",
+        "name": "EnPro Industries",
+        "logo": "https://enproindustries.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=e5b02bcc17f3ae45c41343ae7bc2133e74d794ee&cid=109&type=3",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.153307, -80.838211)",
+        "site": "www.enproindustries.com/",
+        "cat": "Manufacturing"
     },
     {
         "Previous Close": "62.160",
@@ -797,7 +953,13 @@
         "Ex-Dividend Date": "2018-03-28",
         "1y Target Est": 75.36,
         "ticker": "NUE",
-        "url": "http://finance.yahoo.com/quote/NUE?p=NUE"
+        "url": "http://finance.yahoo.com/quote/NUE?p=NUE",
+        "name": "Nucor Corporation",
+        "logo": "http://www.annualreports.com/HostedData/CompanyHeader/NYSE_NUE.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.158720, -80.834881)",
+        "site": "www.nucor.com/",
+        "cat": "Industrial Manufacturing"
     },
     {
         "Previous Close": "142.57",
@@ -817,7 +979,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 145.67,
         "ticker": "ODFL",
-        "url": "http://finance.yahoo.com/quote/ODFL?p=ODFL"
+        "url": "http://finance.yahoo.com/quote/ODFL?p=ODFL",
+        "name": "Old Dominion Freight Line",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/6/6c/Old_Dominion_Freight_Line%2C_Inc._Logo.jpg",
+        "hq": "Morrisville, NC",
+        "lat-lng": "(35.839053, -78.82651)",
+        "site": "https://www.odfl.com/",
+        "cat": "Trucking"
     },
     {
         "Previous Close": "30.7400",
@@ -837,7 +1005,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.0,
         "ticker": "PEBK",
-        "url": "http://finance.yahoo.com/quote/PEBK?p=PEBK"
+        "url": "http://finance.yahoo.com/quote/PEBK?p=PEBK",
+        "name": "Peoples Bank",
+        "logo": "https://peoplesbanknc.com/wp-content/themes/peoplesbank/images/logo.png",
+        "hq": "Newton, NC",
+        "lat-lng": "(35.660537, -81.229351)",
+        "site": "https://peoplesbanknc.com/",
+        "cat": "Banking"
     },
     {
         "Previous Close": "21.650",
@@ -857,7 +1031,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 20.79,
         "ticker": "PGEM",
-        "url": "http://finance.yahoo.com/quote/PGEM?p=PGEM"
+        "url": "http://finance.yahoo.com/quote/PGEM?p=PGEM",
+        "name": "Ply Gem Industries",
+        "logo": "https://cdnassets.hw.net/dims4/GG/396f5a9/2147483647/resize/300x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F8b%2F4b%2F47d072d64d89a99d30c17047983f%2Fply-gem-logo.jpg",
+        "hq": "Cary, NC",
+        "lat-lng": "(35.831816, -78.785148)",
+        "site": "www.plygem.com/",
+        "cat": "Building Materials"
     },
     {
         "Previous Close": "31.19",
@@ -877,7 +1057,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 37.28,
         "ticker": "PINC",
-        "url": "http://finance.yahoo.com/quote/PINC?p=PINC"
+        "url": "http://finance.yahoo.com/quote/PINC?p=PINC",
+        "name": "Premier, Inc.",
+        "logo": "http://www.spjnews.com/wp-content/uploads/2015/09/Premier-logo.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.056750, -80.842172)",
+        "site": "https://www.premierinc.com/",
+        "cat": "Healthcare"
     },
     {
         "Previous Close": "84.09",
@@ -897,7 +1083,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 99.82,
         "ticker": "PRAH",
-        "url": "http://finance.yahoo.com/quote/PRAH?p=PRAH"
+        "url": "http://finance.yahoo.com/quote/PRAH?p=PRAH",
+        "name": "PRA Health Sciences",
+        "logo": "https://mefine.mobileevent.co/wp-content/uploads/sites/2/2017/08/Screen-Shot-2017-08-03-at-6.39.59-PM.png",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.835274, -78.688336)",
+        "site": "https://prahs.com/",
+        "cat": "Medical"
     },
     {
         "Previous Close": "12.11",
@@ -917,7 +1109,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 19.5,
         "ticker": "PRMW",
-        "url": "http://finance.yahoo.com/quote/PRMW?p=PRMW"
+        "url": "http://finance.yahoo.com/quote/PRMW?p=PRMW",
+        "name": "Primo Water",
+        "logo": "https://stocksaints.com/sites/default/files/styles/article_image_full_node/public/field/image/Primo%20Water%20Corporation.JPG?itok=yKlEDMjS",
+        "hq": "Winston-Salem, NC",
+        "lat-lng": "(36.080822, -80.335836)",
+        "site": "https://primowater.com/",
+        "cat": "Retail"
     },
     {
         "Previous Close": "71.24",
@@ -937,7 +1135,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 81.78,
         "ticker": "QRVO",
-        "url": "http://finance.yahoo.com/quote/QRVO?p=QRVO"
+        "url": "http://finance.yahoo.com/quote/QRVO?p=QRVO",
+        "name": "Qorvo",
+        "logo": "https://mms.businesswire.com/media/20140918006338/en/432570/5/Qorvo_Logo.jpg",
+        "hq": "Greensboro, NC",
+        "lat-lng": "(36.076396, -79.965193)",
+        "site": "https://www.qorvo.com/",
+        "cat": "Industrial Manufacturing"
     },
     {
         "Previous Close": "156.7500",
@@ -957,7 +1161,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 166.73,
         "ticker": "RHT",
-        "url": "http://finance.yahoo.com/quote/RHT?p=RHT"
+        "url": "http://finance.yahoo.com/quote/RHT?p=RHT",
+        "name": "Red Hat",
+        "logo": "https://static.makeuseof.com/wp-content/uploads/2013/07/redhat-670x335.jpg",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.775180, -78.637626)",
+        "site": "https://www.redhat.com/en",
+        "cat": "Software"
     },
     {
         "Previous Close": "4.13",
@@ -977,27 +1187,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 7.17,
         "ticker": "RMBL",
-        "url": "http://finance.yahoo.com/quote/RMBL?p=RMBL"
-    },
-    {
-        "Previous Close": "3.35",
-        "Open": "3.40",
-        "Bid": "3.30 x 200",
-        "Ask": "3.33 x 700",
-        "Day's Range": "3.26 - 3.40",
-        "52 Week Range": "2.95 - 9.00",
-        "Volume": "51,307",
-        "Avg. Volume": "272,583",
-        "Market Cap": "73.783M",
-        "Beta": "-0.34",
-        "PE Ratio (TTM)": "0.00",
-        "EPS (TTM)": -2.59,
-        "Earnings Date": "2017-05-12 to 2017-05-15",
-        "Forward Dividend & Yield": "0.00 (0.00)",
-        "Ex-Dividend Date": "0.00",
-        "1y Target Est": 6.5,
-        "ticker": "RVLT",
-        "url": "http://finance.yahoo.com/quote/RVLT?p=RVLT"
+        "url": "http://finance.yahoo.com/quote/RMBL?p=RMBL",
+        "name": "RumbleON",
+        "logo": "https://www.marketbeat.com/logos/rumbleon-inc-logo.jpg",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.150540, -80.828696)",
+        "site": "https://www.rumbleon.com/",
+        "cat": "Auto Dealer"
     },
     {
         "Previous Close": "19.50",
@@ -1017,7 +1213,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 21.83,
         "ticker": "SAH",
-        "url": "http://finance.yahoo.com/quote/SAH?p=SAH"
+        "url": "http://finance.yahoo.com/quote/SAH?p=SAH",
+        "name": "Sonic Automotive",
+        "logo": "http://www.drivingsales.com/news/wp-content/uploads/2016/02/sonic-automotive-logo-red-white-650w.jpg",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.176705, -80.796985)",
+        "site": "https://www.sonicautomotive.com/",
+        "cat": "Auto Dealer"
     },
     {
         "Previous Close": "23.00",
@@ -1037,7 +1239,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 24.31,
         "ticker": "SKT",
-        "url": "http://finance.yahoo.com/quote/SKT?p=SKT"
+        "url": "http://finance.yahoo.com/quote/SKT?p=SKT",
+        "name": "Tanger Factory Outlet Centers",
+        "logo": "https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/0_s9h7u2he/def_height/1400/def_width/1400/version/100012/type/2/q/100",
+        "hq": "Greensboro, NC",
+        "lat-lng": "(36.088274, -79.834708)",
+        "site": "https://www.tangeroutlet.com/",
+        "cat": "Retail"
     },
     {
         "Previous Close": "13.300",
@@ -1057,7 +1265,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.0,
         "ticker": "SLCT",
-        "url": "http://finance.yahoo.com/quote/SLCT?p=SLCT"
+        "url": "http://finance.yahoo.com/quote/SLCT?p=SLCT",
+        "name": "Select Bank & Trust",
+        "logo": "https://www.bankbranchlocator.com/logo/select-bank-trust.jpg",
+        "hq": "Dunn, NC",
+        "lat-lng": "(35.311649, -78.617042)",
+        "site": "https://www.selectbank.com/",
+        "cat": "Banking"
     },
     {
         "Previous Close": "32.51",
@@ -1077,7 +1291,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 36.0,
         "ticker": "SPXC",
-        "url": "http://finance.yahoo.com/quote/SPXC?p=SPXC"
+        "url": "http://finance.yahoo.com/quote/SPXC?p=SPXC",
+        "name": "SPX Corporation",
+        "logo": "https://spx.gcs-web.com/sites/g/files/knoqqb13941/files/spx-logo-marginless.png",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.060794, -80.845823)",
+        "site": "https://www.spx.com/",
+        "cat": "Industrial Manufacturing"
     },
     {
         "Previous Close": "37.30",
@@ -1097,7 +1317,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 51.25,
         "ticker": "SYNH",
-        "url": "http://finance.yahoo.com/quote/SYNH?p=SYNH"
+        "url": "http://finance.yahoo.com/quote/SYNH?p=SYNH",
+        "name": "Syneos Health",
+        "logo": "https://www.syneoshealth.com/sites/default/files/styles/ivh_happening1/public/Syneos%20Health_rgb_tm%20564.jpg?itok=PCgFgGq-",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.820857, -78.609594)",
+        "site": "https://www.syneoshealth.com/",
+        "cat": "Biotechnology"
     },
     {
         "Previous Close": "11.470",
@@ -1117,7 +1343,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 12.35,
         "ticker": "TCAP",
-        "url": "http://finance.yahoo.com/quote/TCAP?p=TCAP"
+        "url": "http://finance.yahoo.com/quote/TCAP?p=TCAP",
+        "name": "Triangle Capital Corporation",
+        "logo": "http://api.tenkwizard.com/cgi/image?quest=1&rid=23&ipage=10285253&doc=3",
+        "hq": "Raleigh, NC",
+        "lat-lng": "(35.830959, -78.666716)",
+        "site": "www.tcap.com/",
+        "cat": "Finance"
     },
     {
         "Previous Close": "6.960",
@@ -1137,7 +1369,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 15.0,
         "ticker": "TENX",
-        "url": "http://finance.yahoo.com/quote/TENX?p=TENX"
+        "url": "http://finance.yahoo.com/quote/TENX?p=TENX",
+        "name": "Tenax Therapeutics",
+        "logo": "http://www.redingtoninc.com/wp-content/uploads/2014/11/TENX-300.png",
+        "hq": "Morrisville, NC",
+        "lat-lng": "(35.863788, -78.820783)",
+        "site": "www.tenaxthera.com/",
+        "cat": "Biotechnology"
     },
     {
         "Previous Close": "322.650",
@@ -1157,7 +1395,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 366.58,
         "ticker": "TREE",
-        "url": "http://finance.yahoo.com/quote/TREE?p=TREE"
+        "url": "http://finance.yahoo.com/quote/TREE?p=TREE",
+        "name": "LendingTree",
+        "logo": "https://img.purch.com/r/520x520/aHR0cDovL3d3dy50b3B0ZW5yZXZpZXdzLmNvbS9pL3BkcC83NGM5ZTlhNjZhOTMzMDMwNjc3ZTdkZWYwMDhjNTA0OS5qcGc=",
+        "hq": "Charlotte, NC",
+        "lat-lng": "(35.060118, -80.859978)",
+        "site": "https://www.lendingtree.com/",
+        "cat": "Mortgage Broker"
     },
     {
         "Previous Close": "17.94",
@@ -1177,14 +1421,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 19.5,
         "ticker": "TRK",
-        "url": "http://finance.yahoo.com/quote/TRK?p=TRK"
-    },
-    {
-        "1y Target Est": 4.17,
-        "EPS (TTM)": -0.973,
-        "Earnings Date": "2017-11-07 to 2017-11-13",
-        "ticker": "TRXC",
-        "url": "http://finance.yahoo.com/quote/TRXC?p=TRXC"
+        "url": "http://finance.yahoo.com/quote/TRK?p=TRK",
+        "name": "Speedway Motorsports",
+        "logo": "http://www.speedwaymotorsports.com/images/links/smi_16.png",
+        "hq": "Concord, NC",
+        "lat-lng": "(35.361986, -80.685832)",
+        "site": "https://www.speedwaymotorsports.com/",
+        "cat": "Event Planning"
     },
     {
         "Previous Close": "37.76",
@@ -1204,7 +1447,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 47.0,
         "ticker": "UFI",
-        "url": "http://finance.yahoo.com/quote/UFI?p=UFI"
+        "url": "http://finance.yahoo.com/quote/UFI?p=UFI",
+        "name": "Unifi, Inc.",
+        "logo": "http://textilesupdate.com/wp-content/uploads/2016/04/Unifi-Inc.-logo-300x224.jpg",
+        "hq": "Greensboro, NC",
+        "lat-lng": "(36.087341, -79.922748)",
+        "site": "https://www.unifi.com/",
+        "cat": "Manufacturing"
     },
     {
         "Previous Close": "77.92",
@@ -1224,7 +1473,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 81.63,
         "ticker": "VFC",
-        "url": "http://finance.yahoo.com/quote/VFC?p=VFC"
+        "url": "http://finance.yahoo.com/quote/VFC?p=VFC",
+        "name": "VF Corporation",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/VF_Corporation_logo.svg/1200px-VF_Corporation_logo.svg.png",
+        "hq": "Greensboro, NC",
+        "lat-lng": "(36.122155, -79.798901)",
+        "site": "https://www.vfc.com/",
+        "cat": "Apparel"
     },
     {
         "Previous Close": "0.7144",
@@ -1244,7 +1499,13 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 18.33,
         "ticker": "VTVT",
-        "url": "http://finance.yahoo.com/quote/VTVT?p=VTVT"
+        "url": "http://finance.yahoo.com/quote/VTVT?p=VTVT",
+        "name": "vTv Therapeutics",
+        "logo": "http://www.macandrewsandforbes.com/wp-content/uploads/2015/05/vTv_logo_486-x-324.png",
+        "hq": "High Point, NC",
+        "lat-lng": "(36.048545, -79.9535)",
+        "site": "www.vtvtherapeutics.com/",
+        "cat": "Pharmaceuticals"
     },
     {
         "Previous Close": "6.49",
@@ -1264,6 +1525,12 @@
         "Ex-Dividend Date": "0.00",
         "1y Target Est": 13.0,
         "ticker": "XRM",
-        "url": "http://finance.yahoo.com/quote/XRM?p=XRM"
+        "url": "http://finance.yahoo.com/quote/XRM?p=XRM",
+        "name": "Xerium Technologies, Inc.",
+        "logo": "http://www.xerium.com/media/220408/2013-xerium_logo_rgb_150dpi.png",
+        "hq": "Youngsville, NC",
+        "lat-lng": "(36.016138, -78.516873)",
+        "site": "www.xerium.com/",
+        "cat": "Manufacturing"
     }
 ]
