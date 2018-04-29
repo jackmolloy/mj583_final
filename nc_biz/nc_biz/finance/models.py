@@ -33,12 +33,28 @@ class Company(models.Model):
     def __str__(self):
         return U'%s' %(self.tick)
 
-
-# class Close(models.Model):
-#     name = models.CharField(max_length=100)
-#
-#     class Meta:
-#         ordering = ('name',)
-#
-#     def __str__(self):
-#         return self.name
+    def to_json(self):
+        return{
+            "tick": self.tick,
+            "close": self.close,
+            "opening": self.opening,
+            "dayRng": self.dayRng,
+            "yrRng": self.yrRng,
+            "volume": self.volume,
+            "avgVolume": self.avgVolume,
+            "cap": self.cap,
+            "yrEst": self.yrEst,
+            "url": self.url,
+            "bid": self.bid,
+            "ask": self.ask,
+            "eps": self.eps,
+            "peRatio": self.peRatio,
+            "forwardDividend": self.forwardDividend,
+            "beta": self.beta,
+            "name": self.name,
+            "hq": self.hq,
+            "site": self.site,
+            "logo": self.logo,
+            "latLng": self.latLng,
+            "cat": self.cat,
+        }

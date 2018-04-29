@@ -1,5 +1,8 @@
 from django.shortcuts import render, get_object_or_404, redirect, render_to_response
 from nc_biz.finance.models import Company
+from django.urls import reverse
+from django.http import JsonResponse
+from django.db.models import Count
 
 # Create your views here.
 
@@ -23,3 +26,23 @@ def company(request, pk):
         'company' : company,
     }
     return render(request, "company.html", context)
+
+def companies(request):
+    companies = Company.objects.all()
+    context = {
+        'companies' : companies
+    }
+    return render(request, "companies.html", context)
+
+def api(request):
+    company = request.GET.get('company')
+
+    companies = Company.objects.all()
+
+    # Get json compatible representation of our countries in a list
+    data = {
+        "companies": [w.to_json() for w in companies],
+    }
+
+
+    return JsonResponse(data)

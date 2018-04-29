@@ -8,6 +8,10 @@
 <h2>Students and Courses</h2>
 <p>This new interactive media major has {{company_count|intcomma }} students taking {{ course_count|intcomma }} courses.
 
+{% for company in companies %}
+  <a href="company/{{ company.id }}"> {{ company }} </a>
+{% endfor %}
+
 <div id="map"></div>
 
 <div id="raw-json"></div>

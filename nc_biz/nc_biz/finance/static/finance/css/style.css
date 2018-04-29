@@ -10,3 +10,7 @@ img.logo-top {
   display:block;
   margin:auto;
 }
+
+#map {
+       height: 100%;
+     }
