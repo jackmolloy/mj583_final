@@ -53,13 +53,46 @@ function init(){
 
 $(init);
 
+// function initMap() {
+//         var uluru = {lat: 35.759573, lng: -79.0193};
+//         var map = new google.maps.Map(document.getElementById('map'), {
+//           zoom: 7,
+//           center: uluru
+//         });
+//         var marker = new google.maps.Marker({
+//           position: uluru,
+//           map: map
+//         });
+//       }
+
 // function loadData(){
 //   $.ajax({
 //           type:"GET",
-//           url:"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=35.8941264,-78.9133741&radius=500&type=restaurant&key=AIzaSyBdg1bcYkhdNsId5_5IoBoNX-vkZHs41KM",
+//           url:"/api/",
 //           dataType:"json",
 //           success: parseData
 //         });
+//       }
+//
+// function parseData(markerData){
+//   markerData = markerData.companies
+//   for (i=0; i<markerData.length; i++){
+//     var loc = markerData.companies[i]
+//     var rep = str.replace(markerData.companies[i]["lat-lng"]/"(/)
+//     var marker[i] = new google.maps.Marker({
+//       position: uluru,
+//       map: map
+//     });
+//   }
+// }
+//
+// // function loadData(){
+// //   $.ajax({
+// //           type:"GET",
+// //           url:"https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=35.8941264,-78.9133741&radius=500&type=restaurant&key=AIzaSyBdg1bcYkhdNsId5_5IoBoNX-vkZHs41KM",
+// //           dataType:"json",
+// //           success: parseData
+// //         });
 // }
 //
 // function showData() {

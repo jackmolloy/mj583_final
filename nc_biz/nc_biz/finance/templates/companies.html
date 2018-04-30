@@ -8,7 +8,6 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
   </div>
   <!-- TradingView Widget END -->
 <h1>NASDAQ in NC</h1>
@@ -16,7 +15,12 @@
 <p>Home to some of the largest publicly traded companies in the nation, North Carolina offers investors and entrepreneurs a unique opportunity to make money while making an impact on the communities they are rooted in. These {{company_count|intcomma}} companies are listed on the NASDAQ, available for public trading. </p>
 
 <div class="row"></div>
-<div class="row text-center text-lg-left">
+<iframe src="https://www.google.com/maps/d/embed?mid=1IkiHCamm3xojlk7j4J4CuRPwVycy1X3b" width="100%" height="480"></iframe>
+
+<!-- thumbnail bootstrap: https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery -->
+<h3>Click Below to Explore</h3>
+<div class="row text-center text-lg-left pre-scrollable">
+
 {% for company in companies %}
 <div class="col-lg-3 col-md-4 col-xs-6 hov" style="height: 200px; background-image: url({{ company.logo }}); background-repeat: no-repeat; background-size: contain; background-position: center;">
     <a href="company/{{ company.id }}" class="d-block mb-4 h-100">
@@ -26,8 +30,13 @@
 {% endfor %}
 </div>
 <div class="row"></div>
+<div class="row"></div>
 
+<h5>1 Year Stock Price Estimates</h5>
 <div id="bar-chart"></div>
+
+
+
 
 <!-- <div class="chart">
   <div style="width: 40px;">4</div>
@@ -37,8 +46,6 @@
   <div style="width: 230px;">23</div>
   <div style="width: 420px;">42</div>
 </div> -->
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1IkiHCamm3xojlk7j4J4CuRPwVycy1X3b" width="100%" height="480"></iframe>
 
 <!-- <div id="map"></div> -->
 

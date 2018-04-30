@@ -9,7 +9,7 @@ function initBar(config) {
     var chart = svg.append("g");
 
     // Configure our SVG element to be the full width and 200px tall
-    svg.attr('width', '100%')
+    svg.attr('width', 'auto')
         .attr('height', 400);
 
     // Get the width and height of the element containing our svg element
