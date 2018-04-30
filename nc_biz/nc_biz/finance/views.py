@@ -30,7 +30,8 @@ def company(request, pk):
 def companies(request):
     companies = Company.objects.all()
     context = {
-        'companies' : companies
+        'companies' : companies,
+        'company_count': Company.objects.count(),
     }
     return render(request, "companies.html", context)
 

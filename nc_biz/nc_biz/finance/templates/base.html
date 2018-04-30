@@ -24,6 +24,33 @@
   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCks1Udwj-0M5YSoMIUPFZvlbhCGXxzamU&callback=initMap"></script> -->
   <script src="{% static "finance/js/bar.js" %}"></script>
   <script src="{% static "finance/js/home.js" %}"></script>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "title": "S&P 500",
+      "proName": "INDEX:SPX"
+    },
+    {
+      "title": "Nasdaq 100",
+      "proName": "INDEX:IUXX"
+    },
+    {
+      "title": "EUR/USD",
+      "proName": "FX_IDC:EURUSD"
+    },
+    {
+      "title": "BTC/USD",
+      "proName": "BITFINEX:BTCUSD"
+    },
+    {
+      "title": "ETH/USD",
+      "proName": "BITFINEX:ETHUSD"
+    }
+  ],
+  "locale": "en"
+}
+  </script>
 
   {% endblock %}
 

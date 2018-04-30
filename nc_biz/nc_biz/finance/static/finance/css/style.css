@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway:400,400i,700,700i');
+
+
 h1 {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  color: #434343;
+}
+
+.hov{
+  opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.hov:hover{
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #434343;
+}
+
+p {
+  color: #434343;
 }
 
 img.logo-top {

@@ -68,7 +68,8 @@ function initBar(config) {
 
         // Create a group for our bars
         var bars = graph.append("g")
-            .classed("bars", true);
+            .classed("bars", true)
+            .attr('fill', '#434343');
 
         // Draw the bars
         bars.selectAll('rect.bar')

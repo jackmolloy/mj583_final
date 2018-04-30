@@ -4,16 +4,27 @@
 
 
 {% block content %}
-<h1> UNC Interactive Media</h1>
-<h2>Students and Courses</h2>
-<p>This new interactive media major has {{company_count|intcomma }} students taking {{ course_count|intcomma }} courses.
+<div class="container">
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Quotes</span></a> by TradingView</div>
+  </div>
+  <!-- TradingView Widget END -->
+<h1>NASDAQ in NC</h1>
+<h2>A Look into North Carolina's Publicly Traded Companies</h2>
+<p>Home to some of the largest publicly traded companies in the nation, North Carolina offers investors and entrepreneurs a unique opportunity to make money while making an impact on the communities they are rooted in. These {{company_count|intcomma}} companies are listed on the NASDAQ, available for public trading. </p>
 
 <div class="row"></div>
+<div class="row text-center text-lg-left">
 {% for company in companies %}
-<div class="mini-box">
-    <a href="company/{{ company.id }}"> {{ company }} </a>
+<div class="col-lg-3 col-md-4 col-xs-6 hov" style="height: 200px; background-image: url({{ company.logo }}); background-repeat: no-repeat; background-size: contain; background-position: center;">
+    <a href="company/{{ company.id }}" class="d-block mb-4 h-100">
+      <!-- <img class="img-fluid img-thumbnail" src="{{ company.logo }}" alt="" style="max-height: 200px;"> -->
+    </a>
 </div>
 {% endfor %}
+</div>
 <div class="row"></div>
 
 <div id="bar-chart"></div>
@@ -31,6 +42,7 @@
 
 <!-- <div id="map"></div> -->
 
-<div id="raw-json"></div>
+
+</div>
 
 {% endblock %}
