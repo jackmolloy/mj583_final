@@ -10,13 +10,13 @@ function initBar(config) {
 
     // Configure our SVG element to be the full width and 200px tall
     svg.attr('width', '100%')
-        .attr('height', 200);
+        .attr('height', 400);
 
     // Get the width and height of the element containing our svg element
     var boundingRect = svgContainer.node().getBoundingClientRect();
 
     // Add margins so there is room to draw our axis
-    var margin = {'left': 40, 'right': 0, 'top': 10, 'bottom': 40};
+    var margin = {'left': 100, 'right': 0, 'top': 20, 'bottom': 280};
 
     // Hang on to the width and height values to use when generating the graph
     var width = boundingRect.width - (margin.left + margin.right);
@@ -29,7 +29,7 @@ function initBar(config) {
     config.bar.render = function () {
         // Get the updated countries data sorted by the number of winners
         var companies = config.data.companies.sort(function(a, b) {
-            return d3.descending(a.name, b.avgVolume);
+            return d3.descending(a.tick, b.yrEst);
         });
 
         // Create lists of country names and the winner counts so we can generate
@@ -39,8 +39,8 @@ function initBar(config) {
         // https://github.com/d3/d3-scale
         // https://github.com/d3/d3-scale#band-scales
         // https://github.com/d3/d3-scale#linear-scales
-        var cnames = companies.map(function(x) {return x.name});
-        var winners = companies.map(function(x) {return x.avgVolume});
+        var cnames = companies.map(function(x) {return x.tick});
+        var winners = companies.map(function(x) {return x.yrEst});
 
         // Create our country name scale
         var nameScale = d3.scaleBand() // band scale
@@ -78,13 +78,13 @@ function initBar(config) {
             .classed('bar', true)
             .attr('width', bandwidth)
             .attr('height', function(d) {
-                return winnerScale(d.avgVolume);
+                return d.yrEst;
             })
             .attr('x', function(d) {
-                return nameScale(d.name);
+                return nameScale(d.tick);
             })
             .attr('y', function(d) {
-                return winnerScale(d.avgVolume);
+                return winnerScale(d.yrEst);
             });
 
         // Create a Y axis on the left side from our winner scale

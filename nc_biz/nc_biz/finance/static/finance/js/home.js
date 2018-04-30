@@ -16,7 +16,7 @@ window.Company = {
 function fetchData() {
     $.get("/api/")
         .done(function(config) {
-            $('#bar-chart').text(JSON.stringify(config, null, '  '));
+            // $('#bar-chart').text(JSON.stringify(config, null, '  '));
             // Add data to global container
             window.Company.data = config;
             // Re-render the bar chart
@@ -29,22 +29,22 @@ function fetchData() {
 }
 
 function init(){
-  var nameSel = $('#sel-name');
-  var avgVolumeSel = $('#sel-avgVolume');
+  var tickSel = $('#sel-tick');
+  var yrEstSel = $('#sel-yrEst');
 
 
     function updateSelections() {
         var params = window.Company.params || {};
-        params.name = nameSel.val();
-        params.avgVolume = avgVolumeSel.val();
+        params.tick = tickSel.val();
+        params.yrEst = yrEstSel.val();
         fetchData();
     }
 
     // Initialize bar chart
     initBar(window.Company);
 
-    nameSel.on('change', updateSelections);
-    avgVolumeSel.on('change', updateSelections);
+    tickSel.on('change', updateSelections);
+    yrEstSel.on('change', updateSelections);
     updateSelections();
 
 }
