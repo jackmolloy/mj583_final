@@ -13,3 +13,27 @@
 <div id="raw-json"></div>
 
 {% endblock %}
+
+<script>
+  var chart = bubbleChart();
+  bubbleChart().width();
+</script>
+
+<svg width="600" height="400">
+    <circle></circle> // a story from data
+    <circle></circle> // another story from data
+    ...
+</svg>
+
+<div class="chart-example" id="chart"><svg></svg></div>
+
+<script>
+  d3.csv('vol.csv', function(error, our_data) {
+    if (error) {
+        console.error('Error getting or parsing the data.');
+        throw error;
+    }
+    var chart = bubbleChart().width(600).height(400);
+    d3.select('#chart').data(our_data).call(chart);
+  });
+</script>

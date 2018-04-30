@@ -16,12 +16,16 @@
   {% block content %}
   {% endblock %}
 
+  {% block script %}
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCks1Udwj-0M5YSoMIUPFZvlbhCGXxzamU&callback=initMap"></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCks1Udwj-0M5YSoMIUPFZvlbhCGXxzamU&callback=initMap"></script> -->
+  <script src="{% static "finance/js/bar.js" %}"></script>
   <script src="{% static "finance/js/home.js" %}"></script>
-  <script src="{% static "finance/js/bubble.js" %}"></script>
+
+  {% endblock %}
 
   </div>
   </body>

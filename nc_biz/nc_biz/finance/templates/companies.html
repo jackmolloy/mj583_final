@@ -8,11 +8,28 @@
 <h2>Students and Courses</h2>
 <p>This new interactive media major has {{company_count|intcomma }} students taking {{ course_count|intcomma }} courses.
 
+<div class="row"></div>
 {% for company in companies %}
-  <a href="company/{{ company.id }}"> {{ company }} </a>
+<div class="mini-box">
+    <a href="company/{{ company.id }}"> {{ company }} </a>
+</div>
 {% endfor %}
+<div class="row"></div>
 
-<div id="map"></div>
+<div id="bar-chart"></div>
+
+<!-- <div class="chart">
+  <div style="width: 40px;">4</div>
+  <div style="width: 80px;">8</div>
+  <div style="width: 150px;">15</div>
+  <div style="width: 160px;">16</div>
+  <div style="width: 230px;">23</div>
+  <div style="width: 420px;">42</div>
+</div> -->
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1IkiHCamm3xojlk7j4J4CuRPwVycy1X3b" width="100%" height="480"></iframe>
+
+<!-- <div id="map"></div> -->
 
 <div id="raw-json"></div>
 
